@@ -4,7 +4,7 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
-use app\Models\Guest\Comic;
+use App\Models\Guest\Comic;
 
 class ComicsTableSeeder extends Seeder
 {
