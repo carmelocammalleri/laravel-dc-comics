@@ -10,6 +10,9 @@
             <a class="nav-link" href="{{route('comics.index')}}">Lista fumetti</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="{{route('comics.create')}}">Aggiungi fumetto</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="{{route('contacts')}}">Contatti</a>
           </li>
         </ul>
