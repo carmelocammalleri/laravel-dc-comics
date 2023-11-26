@@ -16,7 +16,9 @@
 
         @include('partials.header')
 
+        <main class="container d-flex flex-wrap">
         @yield('content')
+        </main>
 
 </body>
 </html>

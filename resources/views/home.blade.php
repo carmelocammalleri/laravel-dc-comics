@@ -3,7 +3,7 @@
 @section('content')
     <main class="container">
 
-        <h1>ciao sono il main</h1>
+        <h1>ciao sono la home</h1>
     </main>
 
 @endsection

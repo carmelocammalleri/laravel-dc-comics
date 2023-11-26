@@ -7,7 +7,7 @@
             <a class="nav-link" aria-current="page" href="{{route('home')}}">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Nuovo fumetto</a>
+            <a class="nav-link" href="{{route('comicsList')}}">Lista fumetti</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="{{route('contacts')}}">Contatti</a>

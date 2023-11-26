@@ -8,11 +8,15 @@ use Illuminate\Http\Request;
 class PageController extends Controller
 {
     public function index(){
-        $comics= Comic::all();
-        return view("home", compact("comics"));
+        return view("home");
     }
 
     public function contacts(){
         return view("contacts");
+    }
+
+    public function comicsList(){
+        $comics= Comic::all();
+        return view("comicsList", compact("comics"));
     }
 }
