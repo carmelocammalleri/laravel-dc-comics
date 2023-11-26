@@ -11,15 +11,15 @@
             @csrf
             <div class="mb-3">
                 <label for="title" class="form-label">Nome Fumetto</label>
-                <input type="text" class="form-control" id="title" name="title" >
-            </div>
-            <div class="mb-3">
-                <label for="thumb" class="form-label">Immagine</label>
-                <input type="text" class="form-control" id="thumb" name="thumb" >
+                <input type="text" class="form-control" id="title" name="title">
             </div>
             <div class="mb-3">
                 <label for="description">Descrizione</label>
                 <textarea class="form-control" id="description" name="description" style="height: 200px"></textarea>
+            </div>
+            <div class="mb-3">
+                <label for="thumb" class="form-label">Immagine</label>
+                <input type="text" class="form-control" id="thumb" name="thumb" >
             </div>
             <div class="mb-3">
                 <label for="price" class="form-label">Prezzo</label>
