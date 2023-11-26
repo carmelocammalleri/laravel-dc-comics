@@ -11,4 +11,8 @@ class PageController extends Controller
         $comics= Comic::all();
         return view("home", compact("comics"));
     }
+
+    public function contacts(){
+        return view("contacts");
+    }
 }
