@@ -3,7 +3,7 @@
 @section('content')
 
 
-        <h1>ciao i contatti</h1>
+        <h1 class="w-100 text-center">Contattaci</h1>
 
 
 @endsection
